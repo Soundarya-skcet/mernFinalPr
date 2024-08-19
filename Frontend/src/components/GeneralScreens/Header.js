@@ -38,7 +38,7 @@ const Header = () => {
 
                 <Link to="/" className="logo">
                     <h5>
-                        MERN BLOG
+                        SHARE BLOG
 
                     </h5>
                 </Link>
@@ -65,7 +65,7 @@ const Header = () => {
 
                                     :
 
-                                    <img src={`/userPhotos/${activeUser.photo}`} alt={activeUser.username} />
+                                    <img src='https://cdn3.iconfinder.com/data/icons/vector-icons-6/96/256-1024.png' alt={activeUser.username} />
 
                                 }
 

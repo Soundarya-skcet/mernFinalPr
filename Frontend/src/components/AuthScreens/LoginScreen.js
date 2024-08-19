@@ -44,8 +44,8 @@ const LoginScreen = () => {
 
           <div className="top-suggest_register">
 
-            <span>Don't have an account? </span>
-            <a href="/register">Sign Up</a>
+            
+            <a href="/register"> Click here to register</a>
 
           </div>
 
@@ -105,7 +105,7 @@ const LoginScreen = () => {
 
         <div className="login-banner-section ">
 
-          <img src="login.png" alt="banner" width="400px" />
+          
         </div>
 
       </div>

@@ -1,10 +1,17 @@
+/* Adding Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+/* Main Profile Page Container */
 .Inclusive_profile_page {
     position: relative;
     width: 1000px;
     margin: 2.8rem auto;
+    box-shadow: 0 4px 8px rgba(244, 67, 2, 0.1); /* Adding shadow */
+    padding: 20px;
+    background: #fff; /* Ensuring background is white for better contrast */
 }
 
+/* Header styling */
 .profile-top-wrap {
     border: 1px solid rgb(235, 235, 235);
     padding: 22px 25px;
@@ -12,22 +19,22 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
+    color: #FFA500; /* Light bold orange for membership info */
+    font-weight: bold; /* Bold text for membership info */
 }
 
-.profile-top-wrap span {
-    color: #0063a5;
-    font-family: 'Mukta', sans-serif;
-    font-weight: bold;
-    font-size: 1.2rem;
-}
-
+/* Styling for links */
 .profile-top-wrap a {
     text-decoration: underline;
     color: rgb(70, 70, 70);
     font-size: 0.8rem;
     padding-top: 1px;
+    position: absolute; /* Making sure it's positioned according to design */
+    bottom: 20px; /* Position at bottom-right */
+    right: 25px; /* Right alignment */
 }
 
+/* List Styling */
 .Inclusive_profile_page ul {
     border: 1px solid rgb(235, 235, 235);
     border-radius: 6px;
@@ -43,17 +50,7 @@
     padding: 25px 5px;
 }
 
-.Inclusive_profile_page ul li span {
-    color: #333;
-    font-family: 'Mukta', sans-serif;
-    font-weight: bold;
-}
-
-.Inclusive_profile_page ul li div {
-    width: 222px;
-    color: rgb(128, 128, 128);
-}
-
+/* Responsive Styling */
 @media only screen and (max-width: 1030px) {
     .Inclusive_profile_page {
         width: 94%;
@@ -64,14 +61,17 @@
     }
 }
 
+/* Button Container */
 .btns_wrap {
     display: flex;
     padding: 25px 0;
     justify-content: flex-start;
 }
 
+/* Button Styling */
 .btns_wrap button {
     all: unset;
+    margin-top: 10px; /* Adding space on top */
 }
 
 .btns_wrap .profileEditBtn a {
@@ -79,7 +79,7 @@
     border: 1px solid #0063a5;
     color: #0063a5;
     border-radius: 3px;
-    background-color: white;
+    background-color: rgb(6, 5, 5);
     height: 45px;
     text-decoration: none;
     display: flex;

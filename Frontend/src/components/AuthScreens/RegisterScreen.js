@@ -57,21 +57,21 @@ const RegisterScreen = () => {
 
         <div className="register-banner-section ">
 
-          <img src="register.png" alt="banner" width="490px" />
+          <img src="https://cdn.dribbble.com/users/14268/screenshots/5583545/unold_icon1_animation_loop_f.gif" />
         </div>
 
         <div className="section-wrapper">
 
           <div className="top-suggest_login">
-            <span> Have an account? </span>
+            <span> Already have an account? </span>
             <a href="/login">Sign In</a>
           </div>
 
           <div className="top-register-explain">
-            <h2>Welcome to MERN Blog </h2>
+            <h2>Welcome to our Blogging platform </h2>
 
             <p>
-              It's easy and free to post your thinking on any topic and connect with thounsands of readers.
+              It's easy and free where you can share your thoughts and connect with anyone globally
 
             </p>
 
@@ -98,7 +98,7 @@ const RegisterScreen = () => {
                 type="email"
                 required
                 id="email"
-                placeholder="example@gmail.com"
+                placeholder="name@gmail.com"
                 onChange={(e) => setEmail(e.target.value)}
                 value={email}
                 tabIndex={1}
@@ -131,7 +131,7 @@ const RegisterScreen = () => {
                 required
                 id="confirmpassword"
                 autoComplete="true"
-                placeholder="Confirm password"
+                placeholder="Re-enter and confirm your password"
                 value={confirmpassword}
                 onChange={(e) => setConfirmPassword(e.target.value)}
               />

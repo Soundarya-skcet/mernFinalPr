@@ -7,7 +7,6 @@
     align-items: center;
     background-color: #EDF0F7;
 }
-
 .login-big-wrapper {
     width: 90%;
     max-width: 1100px;
@@ -25,14 +24,14 @@
 }
 
 .login-banner-section {
-    background-color: #0507D4;
+    background-color: #f0b24e;
     border-radius: 0 9px 9px 0;
-    width: 50%;
+    width: 2px; /* Adjust if needed */
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 @media only screen and (max-width: 860px) {
     .login-banner-section {
         display: none;
@@ -60,7 +59,7 @@
 
 .top-suggest_register a {
     font-size: 0.7rem;
-    color: rgb(13, 16, 163);
+    color: rgb(228, 137, 18);
     text-decoration: none;
     font-weight: 600;
     font-family: 'Inter', sans-serif;
@@ -121,7 +120,7 @@
 }
 
 .login-big-wrapper form input:focus+label {
-    color: #0205b1 !important;
+    color: #e48e16 !important;
 }
 
 .login-screen__forgotpassword {
@@ -130,7 +129,7 @@
     font-family: 'Inter', sans-serif;
     font-size: 0.7rem;
     margin-top: -13px;
-    color: rgb(13, 16, 163);
+    color: rgb(230, 163, 19);
     font-weight: 600;
     cursor: pointer;
     padding: 3px 6px;
@@ -140,7 +139,7 @@
     cursor: pointer;
     border: none;
     outline: 0;
-    background-color: #0205b1;
+    background-color: #e28827;
     width: 100%;
     text-align: center;
     color: white;

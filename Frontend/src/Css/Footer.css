@@ -1,21 +1,50 @@
+/* Footer styling */
 .footer {
-    max-width: 1000px;
-    width: 100%;
-    border-bottom: rgba(0, 0, 0, 0.2) solid 1px;
-    margin: 0 auto;
-    align-items: center;
-}
-
-.copyright {
-    justify-content: space-between;
-    align-items: center;
-    height: 50px;
-    padding: 10px;
-}
-
-.copyright .copyright-blog {
-    font-size: 18px;
-    color: rgb(0, 0, 0);
+    background-color: #333;
+    color: white;
+    padding: 20px;
     text-align: center;
-    margin: 0px;
+    border-top: 1px solid #ccc;
+}
+
+.contact-section {
+    margin-bottom: 20px;
+}
+
+.contact-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form input, .contact-form textarea, .contact-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #777;
+}
+
+.footer .copyright {
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
 }

@@ -55,7 +55,7 @@ const ReadListPage = () => {
 
                     <div className="readList-top-block">
 
-                        <img src={`/userPhotos/${activeUser.photo}`} alt={activeUser.username} />
+                        <img src='https://cdn3.iconfinder.com/data/icons/vector-icons-6/96/256-1024.png' />
 
 
                         <div className='activeUser-info-wrapper'>
